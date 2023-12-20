@@ -62,7 +62,7 @@ public class LivenessDetection {
   public var requestErrorType: Swift.Int?
   public var isSessionValid: Swift.Bool
   public init(token: Swift.String, licenceID: Swift.String, detectionOptionsInit: PapilonActiveLivenessiOS.DetectionOptions)
-  public func faceVerify(nfcFace: Swift.String, selfie: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func faceVerify(nfcFace: Swift.String, selfie: Swift.String, completion: @escaping (Swift.Bool, Swift.Double?, Swift.Bool?) -> Swift.Void)
   public func detectFace(_ pickedImage: UIKit.UIImage)
   public func reset()
   @objc deinit
