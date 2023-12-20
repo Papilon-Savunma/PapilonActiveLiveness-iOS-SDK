@@ -1,0 +1,3828 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PapilonActiveLivenessiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MLKitFaceDetection",
+        "printedName": "MLKitFaceDetection",
+        "declKind": "Import",
+        "moduleName": "PapilonActiveLivenessiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "MLKitVision",
+        "printedName": "MLKitVision",
+        "declKind": "Import",
+        "moduleName": "PapilonActiveLivenessiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage",
+        "printedName": "CoreImage",
+        "declKind": "Import",
+        "moduleName": "PapilonActiveLivenessiOS"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DetectionOptions",
+        "printedName": "DetectionOptions",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "HeadRot",
+            "printedName": "HeadRot",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLivenessiOS.DetectionOptions.Type) -> PapilonActiveLivenessiOS.DetectionOptions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionOptions",
+                    "printedName": "PapilonActiveLivenessiOS.DetectionOptions",
+                    "usr": "s:24PapilonActiveLivenessiOS16DetectionOptionsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLivenessiOS.DetectionOptions.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionOptions",
+                        "printedName": "PapilonActiveLivenessiOS.DetectionOptions",
+                        "usr": "s:24PapilonActiveLivenessiOS16DetectionOptionsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24PapilonActiveLivenessiOS16DetectionOptionsO7HeadRotyA2CmF",
+            "mangledName": "$s24PapilonActiveLivenessiOS16DetectionOptionsO7HeadRotyA2CmF",
+            "moduleName": "PapilonActiveLivenessiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "Blink_HeadRot",
+            "printedName": "Blink_HeadRot",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLivenessiOS.DetectionOptions.Type) -> PapilonActiveLivenessiOS.DetectionOptions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionOptions",
+                    "printedName": "PapilonActiveLivenessiOS.DetectionOptions",
+                    "usr": "s:24PapilonActiveLivenessiOS16DetectionOptionsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLivenessiOS.DetectionOptions.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionOptions",
+                        "printedName": "PapilonActiveLivenessiOS.DetectionOptions",
+                        "usr": "s:24PapilonActiveLivenessiOS16DetectionOptionsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24PapilonActiveLivenessiOS16DetectionOptionsO13Blink_HeadRotyA2CmF",
+            "mangledName": "$s24PapilonActiveLivenessiOS16DetectionOptionsO13Blink_HeadRotyA2CmF",
+            "moduleName": "PapilonActiveLivenessiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "HeadRot_Smile",
+            "printedName": "HeadRot_Smile",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLivenessiOS.DetectionOptions.Type) -> PapilonActiveLivenessiOS.DetectionOptions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionOptions",
+                    "printedName": "PapilonActiveLivenessiOS.DetectionOptions",
+                    "usr": "s:24PapilonActiveLivenessiOS16DetectionOptionsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLivenessiOS.DetectionOptions.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionOptions",
+                        "printedName": "PapilonActiveLivenessiOS.DetectionOptions",
+                        "usr": "s:24PapilonActiveLivenessiOS16DetectionOptionsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24PapilonActiveLivenessiOS16DetectionOptionsO13HeadRot_SmileyA2CmF",
+            "mangledName": "$s24PapilonActiveLivenessiOS16DetectionOptionsO13HeadRot_SmileyA2CmF",
+            "moduleName": "PapilonActiveLivenessiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "FullPack",
+            "printedName": "FullPack",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLivenessiOS.DetectionOptions.Type) -> PapilonActiveLivenessiOS.DetectionOptions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionOptions",
+                    "printedName": "PapilonActiveLivenessiOS.DetectionOptions",
+                    "usr": "s:24PapilonActiveLivenessiOS16DetectionOptionsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLivenessiOS.DetectionOptions.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionOptions",
+                        "printedName": "PapilonActiveLivenessiOS.DetectionOptions",
+                        "usr": "s:24PapilonActiveLivenessiOS16DetectionOptionsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24PapilonActiveLivenessiOS16DetectionOptionsO8FullPackyA2CmF",
+            "mangledName": "$s24PapilonActiveLivenessiOS16DetectionOptionsO8FullPackyA2CmF",
+            "moduleName": "PapilonActiveLivenessiOS"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DetectionOptions",
+                "printedName": "PapilonActiveLivenessiOS.DetectionOptions",
+                "usr": "s:24PapilonActiveLivenessiOS16DetectionOptionsO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DetectionOptions",
+                "printedName": "PapilonActiveLivenessiOS.DetectionOptions",
+                "usr": "s:24PapilonActiveLivenessiOS16DetectionOptionsO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24PapilonActiveLivenessiOS16DetectionOptionsO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s24PapilonActiveLivenessiOS16DetectionOptionsO2eeoiySbAC_ACtFZ",
+            "moduleName": "PapilonActiveLivenessiOS",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24PapilonActiveLivenessiOS16DetectionOptionsO9hashValueSivp",
+            "mangledName": "$s24PapilonActiveLivenessiOS16DetectionOptionsO9hashValueSivp",
+            "moduleName": "PapilonActiveLivenessiOS",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS16DetectionOptionsO9hashValueSivg",
+                "mangledName": "$s24PapilonActiveLivenessiOS16DetectionOptionsO9hashValueSivg",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24PapilonActiveLivenessiOS16DetectionOptionsO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s24PapilonActiveLivenessiOS16DetectionOptionsO4hash4intoys6HasherVz_tF",
+            "moduleName": "PapilonActiveLivenessiOS",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:24PapilonActiveLivenessiOS16DetectionOptionsO",
+        "mangledName": "$s24PapilonActiveLivenessiOS16DetectionOptionsO",
+        "moduleName": "PapilonActiveLivenessiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DetectionStep",
+        "printedName": "DetectionStep",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "initial",
+            "printedName": "initial",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLivenessiOS.DetectionStep.Type) -> PapilonActiveLivenessiOS.DetectionStep",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionStep",
+                    "printedName": "PapilonActiveLivenessiOS.DetectionStep",
+                    "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLivenessiOS.DetectionStep.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionStep",
+                        "printedName": "PapilonActiveLivenessiOS.DetectionStep",
+                        "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO7initialyA2CmF",
+            "mangledName": "$s24PapilonActiveLivenessiOS13DetectionStepO7initialyA2CmF",
+            "moduleName": "PapilonActiveLivenessiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "faceDetected",
+            "printedName": "faceDetected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLivenessiOS.DetectionStep.Type) -> PapilonActiveLivenessiOS.DetectionStep",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionStep",
+                    "printedName": "PapilonActiveLivenessiOS.DetectionStep",
+                    "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLivenessiOS.DetectionStep.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionStep",
+                        "printedName": "PapilonActiveLivenessiOS.DetectionStep",
+                        "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO12faceDetectedyA2CmF",
+            "mangledName": "$s24PapilonActiveLivenessiOS13DetectionStepO12faceDetectedyA2CmF",
+            "moduleName": "PapilonActiveLivenessiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "blinked",
+            "printedName": "blinked",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLivenessiOS.DetectionStep.Type) -> PapilonActiveLivenessiOS.DetectionStep",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionStep",
+                    "printedName": "PapilonActiveLivenessiOS.DetectionStep",
+                    "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLivenessiOS.DetectionStep.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionStep",
+                        "printedName": "PapilonActiveLivenessiOS.DetectionStep",
+                        "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO7blinkedyA2CmF",
+            "mangledName": "$s24PapilonActiveLivenessiOS13DetectionStepO7blinkedyA2CmF",
+            "moduleName": "PapilonActiveLivenessiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "rotatedLeft",
+            "printedName": "rotatedLeft",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLivenessiOS.DetectionStep.Type) -> PapilonActiveLivenessiOS.DetectionStep",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionStep",
+                    "printedName": "PapilonActiveLivenessiOS.DetectionStep",
+                    "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLivenessiOS.DetectionStep.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionStep",
+                        "printedName": "PapilonActiveLivenessiOS.DetectionStep",
+                        "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO11rotatedLeftyA2CmF",
+            "mangledName": "$s24PapilonActiveLivenessiOS13DetectionStepO11rotatedLeftyA2CmF",
+            "moduleName": "PapilonActiveLivenessiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "rotatedRight",
+            "printedName": "rotatedRight",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLivenessiOS.DetectionStep.Type) -> PapilonActiveLivenessiOS.DetectionStep",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionStep",
+                    "printedName": "PapilonActiveLivenessiOS.DetectionStep",
+                    "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLivenessiOS.DetectionStep.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionStep",
+                        "printedName": "PapilonActiveLivenessiOS.DetectionStep",
+                        "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO12rotatedRightyA2CmF",
+            "mangledName": "$s24PapilonActiveLivenessiOS13DetectionStepO12rotatedRightyA2CmF",
+            "moduleName": "PapilonActiveLivenessiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "smiled",
+            "printedName": "smiled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLivenessiOS.DetectionStep.Type) -> PapilonActiveLivenessiOS.DetectionStep",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionStep",
+                    "printedName": "PapilonActiveLivenessiOS.DetectionStep",
+                    "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLivenessiOS.DetectionStep.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionStep",
+                        "printedName": "PapilonActiveLivenessiOS.DetectionStep",
+                        "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO6smiledyA2CmF",
+            "mangledName": "$s24PapilonActiveLivenessiOS13DetectionStepO6smiledyA2CmF",
+            "moduleName": "PapilonActiveLivenessiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "completed",
+            "printedName": "completed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLivenessiOS.DetectionStep.Type) -> PapilonActiveLivenessiOS.DetectionStep",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionStep",
+                    "printedName": "PapilonActiveLivenessiOS.DetectionStep",
+                    "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLivenessiOS.DetectionStep.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionStep",
+                        "printedName": "PapilonActiveLivenessiOS.DetectionStep",
+                        "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO9completedyA2CmF",
+            "mangledName": "$s24PapilonActiveLivenessiOS13DetectionStepO9completedyA2CmF",
+            "moduleName": "PapilonActiveLivenessiOS"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DetectionStep",
+                "printedName": "PapilonActiveLivenessiOS.DetectionStep",
+                "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DetectionStep",
+                "printedName": "PapilonActiveLivenessiOS.DetectionStep",
+                "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s24PapilonActiveLivenessiOS13DetectionStepO2eeoiySbAC_ACtFZ",
+            "moduleName": "PapilonActiveLivenessiOS",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO9hashValueSivp",
+            "mangledName": "$s24PapilonActiveLivenessiOS13DetectionStepO9hashValueSivp",
+            "moduleName": "PapilonActiveLivenessiOS",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO9hashValueSivg",
+                "mangledName": "$s24PapilonActiveLivenessiOS13DetectionStepO9hashValueSivg",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s24PapilonActiveLivenessiOS13DetectionStepO4hash4intoys6HasherVz_tF",
+            "moduleName": "PapilonActiveLivenessiOS",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO",
+        "mangledName": "$s24PapilonActiveLivenessiOS13DetectionStepO",
+        "moduleName": "PapilonActiveLivenessiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageDetectionStep",
+        "printedName": "ImageDetectionStep",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "leftRotation",
+            "printedName": "leftRotation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLivenessiOS.ImageDetectionStep.Type) -> (Swift.String) -> PapilonActiveLivenessiOS.ImageDetectionStep",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> PapilonActiveLivenessiOS.ImageDetectionStep",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageDetectionStep",
+                        "printedName": "PapilonActiveLivenessiOS.ImageDetectionStep",
+                        "usr": "s:24PapilonActiveLivenessiOS18ImageDetectionStepO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(image: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLivenessiOS.ImageDetectionStep.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageDetectionStep",
+                        "printedName": "PapilonActiveLivenessiOS.ImageDetectionStep",
+                        "usr": "s:24PapilonActiveLivenessiOS18ImageDetectionStepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24PapilonActiveLivenessiOS18ImageDetectionStepO12leftRotationyACSS_tcACmF",
+            "mangledName": "$s24PapilonActiveLivenessiOS18ImageDetectionStepO12leftRotationyACSS_tcACmF",
+            "moduleName": "PapilonActiveLivenessiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "rightRotation",
+            "printedName": "rightRotation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLivenessiOS.ImageDetectionStep.Type) -> (Swift.String) -> PapilonActiveLivenessiOS.ImageDetectionStep",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> PapilonActiveLivenessiOS.ImageDetectionStep",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageDetectionStep",
+                        "printedName": "PapilonActiveLivenessiOS.ImageDetectionStep",
+                        "usr": "s:24PapilonActiveLivenessiOS18ImageDetectionStepO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(image: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLivenessiOS.ImageDetectionStep.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageDetectionStep",
+                        "printedName": "PapilonActiveLivenessiOS.ImageDetectionStep",
+                        "usr": "s:24PapilonActiveLivenessiOS18ImageDetectionStepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24PapilonActiveLivenessiOS18ImageDetectionStepO13rightRotationyACSS_tcACmF",
+            "mangledName": "$s24PapilonActiveLivenessiOS18ImageDetectionStepO13rightRotationyACSS_tcACmF",
+            "moduleName": "PapilonActiveLivenessiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "blink",
+            "printedName": "blink",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLivenessiOS.ImageDetectionStep.Type) -> (Swift.String) -> PapilonActiveLivenessiOS.ImageDetectionStep",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> PapilonActiveLivenessiOS.ImageDetectionStep",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageDetectionStep",
+                        "printedName": "PapilonActiveLivenessiOS.ImageDetectionStep",
+                        "usr": "s:24PapilonActiveLivenessiOS18ImageDetectionStepO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(image: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLivenessiOS.ImageDetectionStep.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageDetectionStep",
+                        "printedName": "PapilonActiveLivenessiOS.ImageDetectionStep",
+                        "usr": "s:24PapilonActiveLivenessiOS18ImageDetectionStepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24PapilonActiveLivenessiOS18ImageDetectionStepO5blinkyACSS_tcACmF",
+            "mangledName": "$s24PapilonActiveLivenessiOS18ImageDetectionStepO5blinkyACSS_tcACmF",
+            "moduleName": "PapilonActiveLivenessiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "smile",
+            "printedName": "smile",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLivenessiOS.ImageDetectionStep.Type) -> (Swift.String) -> PapilonActiveLivenessiOS.ImageDetectionStep",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> PapilonActiveLivenessiOS.ImageDetectionStep",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageDetectionStep",
+                        "printedName": "PapilonActiveLivenessiOS.ImageDetectionStep",
+                        "usr": "s:24PapilonActiveLivenessiOS18ImageDetectionStepO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(image: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLivenessiOS.ImageDetectionStep.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageDetectionStep",
+                        "printedName": "PapilonActiveLivenessiOS.ImageDetectionStep",
+                        "usr": "s:24PapilonActiveLivenessiOS18ImageDetectionStepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24PapilonActiveLivenessiOS18ImageDetectionStepO5smileyACSS_tcACmF",
+            "mangledName": "$s24PapilonActiveLivenessiOS18ImageDetectionStepO5smileyACSS_tcACmF",
+            "moduleName": "PapilonActiveLivenessiOS"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:24PapilonActiveLivenessiOS18ImageDetectionStepO",
+        "mangledName": "$s24PapilonActiveLivenessiOS18ImageDetectionStepO",
+        "moduleName": "PapilonActiveLivenessiOS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LivenessDetectionDelegate",
+        "printedName": "LivenessDetectionDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didDetectAction",
+            "printedName": "didDetectAction(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DetectionStep",
+                "printedName": "PapilonActiveLivenessiOS.DetectionStep",
+                "usr": "s:24PapilonActiveLivenessiOS13DetectionStepO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24PapilonActiveLivenessiOS25LivenessDetectionDelegateP15didDetectActionyyAA0F4StepOF",
+            "mangledName": "$s24PapilonActiveLivenessiOS25LivenessDetectionDelegateP15didDetectActionyyAA0F4StepOF",
+            "moduleName": "PapilonActiveLivenessiOS",
+            "genericSig": "<τ_0_0 where τ_0_0 : PapilonActiveLivenessiOS.LivenessDetectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PapilonActiveLivenessiOS.LivenessDetectionDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:24PapilonActiveLivenessiOS25LivenessDetectionDelegateP",
+        "mangledName": "$s24PapilonActiveLivenessiOS25LivenessDetectionDelegateP",
+        "moduleName": "PapilonActiveLivenessiOS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LivenessImageDetectionDelegate",
+        "printedName": "LivenessImageDetectionDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didDetectImage",
+            "printedName": "didDetectImage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImageDetectionStep",
+                "printedName": "PapilonActiveLivenessiOS.ImageDetectionStep",
+                "usr": "s:24PapilonActiveLivenessiOS18ImageDetectionStepO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24PapilonActiveLivenessiOS30LivenessImageDetectionDelegateP09didDetectF0yyAA0fG4StepOF",
+            "mangledName": "$s24PapilonActiveLivenessiOS30LivenessImageDetectionDelegateP09didDetectF0yyAA0fG4StepOF",
+            "moduleName": "PapilonActiveLivenessiOS",
+            "genericSig": "<τ_0_0 where τ_0_0 : PapilonActiveLivenessiOS.LivenessImageDetectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PapilonActiveLivenessiOS.LivenessImageDetectionDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:24PapilonActiveLivenessiOS30LivenessImageDetectionDelegateP",
+        "mangledName": "$s24PapilonActiveLivenessiOS30LivenessImageDetectionDelegateP",
+        "moduleName": "PapilonActiveLivenessiOS",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LivenessDetection",
+        "printedName": "LivenessDetection",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PapilonActiveLivenessiOS.LivenessDetectionDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessDetectionDelegate",
+                    "printedName": "PapilonActiveLivenessiOS.LivenessDetectionDelegate",
+                    "usr": "s:24PapilonActiveLivenessiOS25LivenessDetectionDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC8delegateAA0eF8Delegate_pSgvp",
+            "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC8delegateAA0eF8Delegate_pSgvp",
+            "moduleName": "PapilonActiveLivenessiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PapilonActiveLivenessiOS.LivenessDetectionDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessDetectionDelegate",
+                        "printedName": "PapilonActiveLivenessiOS.LivenessDetectionDelegate",
+                        "usr": "s:24PapilonActiveLivenessiOS25LivenessDetectionDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC8delegateAA0eF8Delegate_pSgvg",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC8delegateAA0eF8Delegate_pSgvg",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PapilonActiveLivenessiOS.LivenessDetectionDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessDetectionDelegate",
+                        "printedName": "PapilonActiveLivenessiOS.LivenessDetectionDelegate",
+                        "usr": "s:24PapilonActiveLivenessiOS25LivenessDetectionDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC8delegateAA0eF8Delegate_pSgvs",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC8delegateAA0eF8Delegate_pSgvs",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC8delegateAA0eF8Delegate_pSgvM",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC8delegateAA0eF8Delegate_pSgvM",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imageDelegate",
+            "printedName": "imageDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "PapilonActiveLivenessiOS.LivenessImageDetectionDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC13imageDelegateAA0e5ImagefH0_pSgvp",
+            "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC13imageDelegateAA0e5ImagefH0_pSgvp",
+            "moduleName": "PapilonActiveLivenessiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PapilonActiveLivenessiOS.LivenessImageDetectionDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessImageDetectionDelegate",
+                        "printedName": "PapilonActiveLivenessiOS.LivenessImageDetectionDelegate",
+                        "usr": "s:24PapilonActiveLivenessiOS30LivenessImageDetectionDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC13imageDelegateAA0e5ImagefH0_pSgvg",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC13imageDelegateAA0e5ImagefH0_pSgvg",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PapilonActiveLivenessiOS.LivenessImageDetectionDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessImageDetectionDelegate",
+                        "printedName": "PapilonActiveLivenessiOS.LivenessImageDetectionDelegate",
+                        "usr": "s:24PapilonActiveLivenessiOS30LivenessImageDetectionDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC13imageDelegateAA0e5ImagefH0_pSgvs",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC13imageDelegateAA0e5ImagefH0_pSgvs",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC13imageDelegateAA0e5ImagefH0_pSgvM",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC13imageDelegateAA0e5ImagefH0_pSgvM",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "initialEyeDetect",
+            "printedName": "initialEyeDetect",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC16initialEyeDetectSSSgvp",
+            "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC16initialEyeDetectSSSgvp",
+            "moduleName": "PapilonActiveLivenessiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC16initialEyeDetectSSSgvg",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC16initialEyeDetectSSSgvg",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC16initialEyeDetectSSSgvs",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC16initialEyeDetectSSSgvs",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC16initialEyeDetectSSSgvM",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC16initialEyeDetectSSSgvM",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isFaceDetected",
+            "printedName": "isFaceDetected",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC14isFaceDetectedSbvp",
+            "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC14isFaceDetectedSbvp",
+            "moduleName": "PapilonActiveLivenessiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC14isFaceDetectedSbvg",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC14isFaceDetectedSbvg",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC14isFaceDetectedSbvs",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC14isFaceDetectedSbvs",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC14isFaceDetectedSbvM",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC14isFaceDetectedSbvM",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isBlinkDetected",
+            "printedName": "isBlinkDetected",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC15isBlinkDetectedSbvp",
+            "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC15isBlinkDetectedSbvp",
+            "moduleName": "PapilonActiveLivenessiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC15isBlinkDetectedSbvg",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC15isBlinkDetectedSbvg",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC15isBlinkDetectedSbvs",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC15isBlinkDetectedSbvs",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC15isBlinkDetectedSbvM",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC15isBlinkDetectedSbvM",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isRotateLeftDetected",
+            "printedName": "isRotateLeftDetected",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC20isRotateLeftDetectedSbvp",
+            "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC20isRotateLeftDetectedSbvp",
+            "moduleName": "PapilonActiveLivenessiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC20isRotateLeftDetectedSbvg",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC20isRotateLeftDetectedSbvg",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC20isRotateLeftDetectedSbvs",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC20isRotateLeftDetectedSbvs",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC20isRotateLeftDetectedSbvM",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC20isRotateLeftDetectedSbvM",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isRotateRightDetected",
+            "printedName": "isRotateRightDetected",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC21isRotateRightDetectedSbvp",
+            "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC21isRotateRightDetectedSbvp",
+            "moduleName": "PapilonActiveLivenessiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC21isRotateRightDetectedSbvg",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC21isRotateRightDetectedSbvg",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC21isRotateRightDetectedSbvs",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC21isRotateRightDetectedSbvs",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC21isRotateRightDetectedSbvM",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC21isRotateRightDetectedSbvM",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isSmileDetected",
+            "printedName": "isSmileDetected",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC15isSmileDetectedSbvp",
+            "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC15isSmileDetectedSbvp",
+            "moduleName": "PapilonActiveLivenessiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC15isSmileDetectedSbvg",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC15isSmileDetectedSbvg",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC15isSmileDetectedSbvs",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC15isSmileDetectedSbvs",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC15isSmileDetectedSbvM",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC15isSmileDetectedSbvM",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "livenessSuccess",
+            "printedName": "livenessSuccess",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC15livenessSuccessSbvp",
+            "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC15livenessSuccessSbvp",
+            "moduleName": "PapilonActiveLivenessiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC15livenessSuccessSbvg",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC15livenessSuccessSbvg",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC15livenessSuccessSbvs",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC15livenessSuccessSbvs",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC15livenessSuccessSbvM",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC15livenessSuccessSbvM",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "detectionOptions",
+            "printedName": "detectionOptions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DetectionOptions",
+                "printedName": "PapilonActiveLivenessiOS.DetectionOptions",
+                "usr": "s:24PapilonActiveLivenessiOS16DetectionOptionsO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC16detectionOptionsAA0fH0Ovp",
+            "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC16detectionOptionsAA0fH0Ovp",
+            "moduleName": "PapilonActiveLivenessiOS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionOptions",
+                    "printedName": "PapilonActiveLivenessiOS.DetectionOptions",
+                    "usr": "s:24PapilonActiveLivenessiOS16DetectionOptionsO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC16detectionOptionsAA0fH0Ovg",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC16detectionOptionsAA0fH0Ovg",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionOptions",
+                    "printedName": "PapilonActiveLivenessiOS.DetectionOptions",
+                    "usr": "s:24PapilonActiveLivenessiOS16DetectionOptionsO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC16detectionOptionsAA0fH0Ovs",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC16detectionOptionsAA0fH0Ovs",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC16detectionOptionsAA0fH0OvM",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC16detectionOptionsAA0fH0OvM",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "requestErrorType",
+            "printedName": "requestErrorType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC16requestErrorTypeSiSgvp",
+            "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC16requestErrorTypeSiSgvp",
+            "moduleName": "PapilonActiveLivenessiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC16requestErrorTypeSiSgvg",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC16requestErrorTypeSiSgvg",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC16requestErrorTypeSiSgvs",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC16requestErrorTypeSiSgvs",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC16requestErrorTypeSiSgvM",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC16requestErrorTypeSiSgvM",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isSessionValid",
+            "printedName": "isSessionValid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC14isSessionValidSbvp",
+            "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC14isSessionValidSbvp",
+            "moduleName": "PapilonActiveLivenessiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC14isSessionValidSbvg",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC14isSessionValidSbvg",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC14isSessionValidSbvs",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC14isSessionValidSbvs",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC14isSessionValidSbvM",
+                "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC14isSessionValidSbvM",
+                "moduleName": "PapilonActiveLivenessiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:licenceID:detectionOptionsInit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessDetection",
+                "printedName": "PapilonActiveLivenessiOS.LivenessDetection",
+                "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DetectionOptions",
+                "printedName": "PapilonActiveLivenessiOS.DetectionOptions",
+                "usr": "s:24PapilonActiveLivenessiOS16DetectionOptionsO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC5token9licenceID20detectionOptionsInitACSS_SSAA0fK0Otcfc",
+            "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC5token9licenceID20detectionOptionsInitACSS_SSAA0fK0Otcfc",
+            "moduleName": "PapilonActiveLivenessiOS",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "faceVerify",
+            "printedName": "faceVerify(nfcFace:selfie:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC10faceVerify7nfcFace6selfie10completionySS_SSySbctF",
+            "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC10faceVerify7nfcFace6selfie10completionySS_SSySbctF",
+            "moduleName": "PapilonActiveLivenessiOS",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "detectFace",
+            "printedName": "detectFace(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC10detectFaceyySo7UIImageCF",
+            "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC10detectFaceyySo7UIImageCF",
+            "moduleName": "PapilonActiveLivenessiOS",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC5resetyyF",
+            "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC5resetyyF",
+            "moduleName": "PapilonActiveLivenessiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24PapilonActiveLivenessiOS17LivenessDetectionC",
+        "mangledName": "$s24PapilonActiveLivenessiOS17LivenessDetectionC",
+        "moduleName": "PapilonActiveLivenessiOS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 494,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1439,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1509,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1580,
+      "length": 3,
+      "value": "-50"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1652,
+      "length": 3,
+      "value": "-10"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 1714,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 1777,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1856,
+      "length": 2,
+      "value": "-3"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1935,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 1983,
+      "length": 4,
+      "value": "0.45"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2185,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2224,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2268,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2313,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2352,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2391,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2731,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3046,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3090,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3310,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 3407,
+      "length": 4,
+      "value": "0.15"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3894,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3927,
+      "length": 3,
+      "value": "401"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 3971,
+      "length": 23,
+      "value": "\"Permission is granted\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4051,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4148,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 4268,
+      "length": 55,
+      "value": "\"Session request failed: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 4322,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4376,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 4498,
+      "length": 55,
+      "value": "\"License request failed: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 4552,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4598,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 4878,
+      "length": 8,
+      "value": "\"token=\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 4897,
+      "length": 14,
+      "value": "\"&license_id=\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 5037,
+      "length": 50,
+      "value": "\"https:\/\/license.seeandsign.com\/license\/authorize\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 5149,
+      "length": 35,
+      "value": "\"application\/x-www-form-urlencoded\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 5206,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 5251,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 5627,
+      "length": 13,
+      "value": "\"NoDataError\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5648,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 5957,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 6042,
+      "length": 10,
+      "value": "\"APIError\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6060,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 6075,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 6203,
+      "length": 7,
+      "value": "\"token\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 6368,
+      "length": 12,
+      "value": "\"TokenError\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6388,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 6754,
+      "length": 16,
+      "value": "\"session_token=\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 6781,
+      "length": 26,
+      "value": "\"&function=id_recognition\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 6920,
+      "length": 55,
+      "value": "\"https:\/\/license.seeandsign.com\/license\/verify_session\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 7037,
+      "length": 35,
+      "value": "\"application\/x-www-form-urlencoded\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 7094,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 7139,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 7527,
+      "length": 13,
+      "value": "\"NoDataError\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7548,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "Array",
+      "offset": 7728,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 7964,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 8041,
+      "length": 10,
+      "value": "\"APIError\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 8095,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 8624,
+      "length": 14,
+      "value": "\"ParsingError\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8646,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 9178,
+      "length": 45,
+      "value": "\"https:\/\/license.seeandsign.com\/v2\/user\/face\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 9250,
+      "length": 13,
+      "value": "\"Invalid URL\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9288,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 9397,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 9428,
+      "length": 31,
+      "value": "\"Boundary-\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 9458,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 9485,
+      "length": 43,
+      "value": "\"multipart\/form-data; boundary=\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 9527,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 9550,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 9667,
+      "length": 10,
+      "value": "\"nfc_face\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 9689,
+      "length": 13,
+      "value": "\"nfcFace.jpg\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 9714,
+      "length": 12,
+      "value": "\"image\/jpeg\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 9838,
+      "length": 8,
+      "value": "\"selfie\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 9858,
+      "length": 12,
+      "value": "\"selfie.jpg\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 9882,
+      "length": 12,
+      "value": "\"image\/jpeg\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 9953,
+      "length": 21,
+      "value": "\"--\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 9967,
+      "length": 2,
+      "value": "\"--\r\n\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 10178,
+      "length": 93,
+      "value": "\"Error occurred while sending the request: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 10254,
+      "length": 15,
+      "value": "\"Unknown error\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 10270,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10300,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 10525,
+      "length": 34,
+      "value": "\"Response Data: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 10558,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10709,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10742,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10796,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 11043,
+      "length": 19,
+      "value": "\"--\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 11057,
+      "length": 1,
+      "value": "\"\r\n\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 11104,
+      "length": 85,
+      "value": "\"Content-Disposition: form-data; name=\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 11156,
+      "length": 1,
+      "value": "\"\"; filename=\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 11182,
+      "length": 1,
+      "value": "\"\"\r\n\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 11231,
+      "length": 35,
+      "value": "\"Content-Type: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 11257,
+      "length": 1,
+      "value": "\"\r\n\r\n\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 11474,
+      "length": 33,
+      "value": "\"Error: Cannot encode image data\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 11540,
+      "length": 6,
+      "value": "\"\r\n\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 11769,
+      "length": 27,
+      "value": "\"Permission is not granted\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 12166,
+      "length": 46,
+      "value": "\"Error occurred during face detection: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 12211,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12404,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13196,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 13398,
+      "length": 21,
+      "value": "\"case: HeadRot_Smile\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13577,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 13774,
+      "length": 16,
+      "value": "\"case: FullPack\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13948,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 14134,
+      "length": 72,
+      "value": "\"Unknown detectionOption: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 14205,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 14391,
+      "length": 17,
+      "value": "\"CURRENT STEP : \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14470,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 14522,
+      "length": 6,
+      "value": "\"\n\n\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 14548,
+      "length": 31,
+      "value": "\"Step: Initial - Face detected\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 14599,
+      "length": 42,
+      "value": "\"Initial Y value: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 14640,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14685,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14763,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14917,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15287,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 15314,
+      "length": 47,
+      "value": "\"Y rotated left value: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 15360,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15492,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15769,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16158,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 16185,
+      "length": 48,
+      "value": "\"Y rotated right value: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 16232,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16345,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16623,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16670,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16702,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 16920,
+      "length": 17,
+      "value": "\"CURRENT STEP : \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16999,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 17051,
+      "length": 6,
+      "value": "\"\n\n\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 17077,
+      "length": 31,
+      "value": "\"Step: Initial - Face detected\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 17128,
+      "length": 42,
+      "value": "\"Initial Y value: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 17169,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17214,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17292,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17433,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17740,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17872,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18142,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18512,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 18539,
+      "length": 47,
+      "value": "\"Y rotated left value: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 18585,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18717,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18994,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19383,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 19410,
+      "length": 48,
+      "value": "\"Y rotated right value: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 19457,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19570,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19848,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19895,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19927,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 20150,
+      "length": 17,
+      "value": "\"CURRENT STEP : \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20229,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 20281,
+      "length": 6,
+      "value": "\"\n\n\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 20307,
+      "length": 31,
+      "value": "\"Step: Initial - Face detected\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 20358,
+      "length": 42,
+      "value": "\"Initial Y value: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 20399,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20444,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20522,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20676,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21046,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 21073,
+      "length": 47,
+      "value": "\"Y rotated left value: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 21119,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21251,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21528,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21917,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 21944,
+      "length": 48,
+      "value": "\"Y rotated right value: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 21991,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22097,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22375,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 22421,
+      "length": 23,
+      "value": "\"smiling probability: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22881,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23004,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23308,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23355,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23387,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 23597,
+      "length": 17,
+      "value": "\"CURRENT STEP : \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23676,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 23728,
+      "length": 6,
+      "value": "\"\n\n\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 23754,
+      "length": 31,
+      "value": "\"Step: Initial - Face detected\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 23805,
+      "length": 42,
+      "value": "\"Initial Y value: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 23846,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23891,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23969,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24110,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24417,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24549,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24819,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25189,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 25216,
+      "length": 47,
+      "value": "\"Y rotated left value: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 25262,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25394,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25671,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26060,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 26087,
+      "length": 48,
+      "value": "\"Y rotated right value: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 26134,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26240,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26518,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 26564,
+      "length": 23,
+      "value": "\"smiling probability: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27024,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27147,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27451,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27498,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27530,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28913,
+      "length": 3,
+      "value": "150"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29125,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29174,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29719,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 29863,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 30167,
+      "length": 5,
+      "value": "180.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 30501,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 30530,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 30632,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 30661,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 31021,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 31170,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/PapilonActiveLivenessiOS\/PapilonActiveLivenessiOS\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 31198,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

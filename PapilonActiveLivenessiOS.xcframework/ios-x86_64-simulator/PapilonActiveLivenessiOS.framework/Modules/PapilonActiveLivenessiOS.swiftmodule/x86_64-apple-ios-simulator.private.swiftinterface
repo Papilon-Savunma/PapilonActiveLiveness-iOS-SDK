@@ -1,0 +1,73 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PapilonActiveLivenessiOS
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CoreImage
+import Foundation
+import MLKitFaceDetection
+import MLKitVision
+@_exported import PapilonActiveLivenessiOS
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum DetectionOptions {
+  case HeadRot
+  case Blink_HeadRot
+  case HeadRot_Smile
+  case FullPack
+  public static func == (a: PapilonActiveLivenessiOS.DetectionOptions, b: PapilonActiveLivenessiOS.DetectionOptions) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum DetectionStep {
+  case initial
+  case faceDetected
+  case blinked
+  case rotatedLeft
+  case rotatedRight
+  case smiled
+  case completed
+  public static func == (a: PapilonActiveLivenessiOS.DetectionStep, b: PapilonActiveLivenessiOS.DetectionStep) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ImageDetectionStep {
+  case leftRotation(image: Swift.String)
+  case rightRotation(image: Swift.String)
+  case blink(image: Swift.String)
+  case smile(image: Swift.String)
+}
+public protocol LivenessDetectionDelegate {
+  func didDetectAction(_ step: PapilonActiveLivenessiOS.DetectionStep)
+}
+public protocol LivenessImageDetectionDelegate : AnyObject {
+  func didDetectImage(_ step: PapilonActiveLivenessiOS.ImageDetectionStep)
+}
+public class LivenessDetection {
+  public var delegate: (any PapilonActiveLivenessiOS.LivenessDetectionDelegate)?
+  weak public var imageDelegate: (any PapilonActiveLivenessiOS.LivenessImageDetectionDelegate)?
+  public var initialEyeDetect: Swift.String?
+  public var isFaceDetected: Swift.Bool
+  public var isBlinkDetected: Swift.Bool
+  public var isRotateLeftDetected: Swift.Bool
+  public var isRotateRightDetected: Swift.Bool
+  public var isSmileDetected: Swift.Bool
+  public var livenessSuccess: Swift.Bool
+  public var detectionOptions: PapilonActiveLivenessiOS.DetectionOptions
+  public var requestErrorType: Swift.Int?
+  public var isSessionValid: Swift.Bool
+  public init(token: Swift.String, licenceID: Swift.String, detectionOptionsInit: PapilonActiveLivenessiOS.DetectionOptions)
+  public func faceVerify(nfcFace: Swift.String, selfie: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func detectFace(_ pickedImage: UIKit.UIImage)
+  public func reset()
+  @objc deinit
+}
+extension PapilonActiveLivenessiOS.DetectionOptions : Swift.Equatable {}
+extension PapilonActiveLivenessiOS.DetectionOptions : Swift.Hashable {}
+extension PapilonActiveLivenessiOS.DetectionStep : Swift.Equatable {}
+extension PapilonActiveLivenessiOS.DetectionStep : Swift.Hashable {}

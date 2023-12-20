@@ -1,0 +1,11 @@
+framework module PapilonActiveLivenessiOS {
+  umbrella header "PapilonActiveLivenessiOS.h"
+  export *
+
+  module * { export * }
+}
+
+module PapilonActiveLivenessiOS.Swift {
+  header "PapilonActiveLivenessiOS-Swift.h"
+  requires objc
+}
