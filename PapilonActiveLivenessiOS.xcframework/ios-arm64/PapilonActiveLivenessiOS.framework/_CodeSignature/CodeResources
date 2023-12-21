@@ -70,7 +70,7 @@
 		</data>
 		<key>Modules/PapilonActiveLivenessiOS.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		vKFcitLr3JkMwvf8W5g8zVSEc4E=
+		vg/Bh3OMxSmt98MBPrMJOQ9Iv5E=
 		</data>
 		<key>Modules/PapilonActiveLivenessiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Modules/PapilonActiveLivenessiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		COKZZpduUbsQI2w7xVoECVKUTnM=
+		9Kx165Pf2YhxZJWlsqfwplk3tzM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -204,7 +204,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JwxPki13mi31ZdY4/8qrnNaL9pP/3rxsyCGeZlKgAbE=
+			Xu0YYjVdVMGv7Z6Si8++DpvMmPky6qcqifwnMESxitM=
 			</data>
 		</dict>
 		<key>Modules/PapilonActiveLivenessiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -232,7 +232,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V9kMNHaf5G2/Q74QHemPgXoeqseAOplXE0mcXW2lyVI=
+			3y9BeuR5zoCYHlusPQTxgNBz8g7AmCeP4fXmoLE5alM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
