@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PapilonActiveLivenessiOS-SDK'
-  s.version          = '1.0.6'
+  s.version          = '1.0.7'
   s.summary          = 'Active Liveness SDK for iOS'
 
   s.description      = "Active Liveness SDK for iOS"
@@ -14,4 +14,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '14.2'
   s.swift_version = '5.0'
   s.vendored_frameworks = 'PapilonActiveLivenessiOS.xcframework'
+  s.dependency 'MLKitFaceDetection'
+  s.dependency 'MLKitVision'
 end
