@@ -1,0 +1,3186 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "PapilonActiveLiveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PapilonActiveLiveness"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CameraManagerALDelegate",
+        "printedName": "CameraManagerALDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "capturedImagesResult",
+            "printedName": "capturedImagesResult(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21PapilonActiveLiveness23CameraManagerALDelegateP20capturedImagesResultyySDyS2SGF",
+            "mangledName": "$s21PapilonActiveLiveness23CameraManagerALDelegateP20capturedImagesResultyySDyS2SGF",
+            "moduleName": "PapilonActiveLiveness",
+            "genericSig": "<τ_0_0 where τ_0_0 : PapilonActiveLiveness.CameraManagerALDelegate>",
+            "sugared_genericSig": "<Self where Self : PapilonActiveLiveness.CameraManagerALDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:21PapilonActiveLiveness23CameraManagerALDelegateP",
+        "mangledName": "$s21PapilonActiveLiveness23CameraManagerALDelegateP",
+        "moduleName": "PapilonActiveLiveness",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CameraManagerAL",
+        "printedName": "CameraManagerAL",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "verificationCompleted",
+            "printedName": "verificationCompleted(isVerified:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21PapilonActiveLiveness15CameraManagerALC21verificationCompleted10isVerifiedySb_tF",
+            "mangledName": "$s21PapilonActiveLiveness15CameraManagerALC21verificationCompleted10isVerifiedySb_tF",
+            "moduleName": "PapilonActiveLiveness",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDetectAction",
+            "printedName": "didDetectAction(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DetectionStep",
+                "printedName": "PapilonActiveLiveness.DetectionStep",
+                "usr": "s:21PapilonActiveLiveness13DetectionStepO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21PapilonActiveLiveness15CameraManagerALC15didDetectActionyyAA13DetectionStepOF",
+            "mangledName": "$s21PapilonActiveLiveness15CameraManagerALC15didDetectActionyyAA13DetectionStepOF",
+            "moduleName": "PapilonActiveLiveness",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDetectImage",
+            "printedName": "didDetectImage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImageDetectionStep",
+                "printedName": "PapilonActiveLiveness.ImageDetectionStep",
+                "usr": "s:21PapilonActiveLiveness18ImageDetectionStepO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21PapilonActiveLiveness15CameraManagerALC14didDetectImageyyAA0I13DetectionStepOF",
+            "mangledName": "$s21PapilonActiveLiveness15CameraManagerALC14didDetectImageyyAA0I13DetectionStepOF",
+            "moduleName": "PapilonActiveLiveness",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "delegateCameraManagerAL",
+            "printedName": "delegateCameraManagerAL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any PapilonActiveLiveness.CameraManagerALDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21PapilonActiveLiveness15CameraManagerALC08delegatedeF0AA0dE10ALDelegate_pSgvp",
+            "mangledName": "$s21PapilonActiveLiveness15CameraManagerALC08delegatedeF0AA0dE10ALDelegate_pSgvp",
+            "moduleName": "PapilonActiveLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any PapilonActiveLiveness.CameraManagerALDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CameraManagerALDelegate",
+                        "printedName": "any PapilonActiveLiveness.CameraManagerALDelegate",
+                        "usr": "s:21PapilonActiveLiveness23CameraManagerALDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness15CameraManagerALC08delegatedeF0AA0dE10ALDelegate_pSgvg",
+                "mangledName": "$s21PapilonActiveLiveness15CameraManagerALC08delegatedeF0AA0dE10ALDelegate_pSgvg",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any PapilonActiveLiveness.CameraManagerALDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CameraManagerALDelegate",
+                        "printedName": "any PapilonActiveLiveness.CameraManagerALDelegate",
+                        "usr": "s:21PapilonActiveLiveness23CameraManagerALDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness15CameraManagerALC08delegatedeF0AA0dE10ALDelegate_pSgvs",
+                "mangledName": "$s21PapilonActiveLiveness15CameraManagerALC08delegatedeF0AA0dE10ALDelegate_pSgvs",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness15CameraManagerALC08delegatedeF0AA0dE10ALDelegate_pSgvM",
+                "mangledName": "$s21PapilonActiveLiveness15CameraManagerALC08delegatedeF0AA0dE10ALDelegate_pSgvM",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CameraManagerAL",
+                "printedName": "PapilonActiveLiveness.CameraManagerAL",
+                "usr": "c:@M@PapilonActiveLiveness@objc(cs)CameraManagerAL"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PapilonActiveLiveness@objc(cs)CameraManagerAL(im)init",
+            "mangledName": "$s21PapilonActiveLiveness15CameraManagerALCACycfc",
+            "moduleName": "PapilonActiveLiveness",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "configureALCameraManager",
+            "printedName": "configureALCameraManager(token:licenseID:detectionOptions:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DetectionOptions",
+                "printedName": "PapilonActiveLiveness.DetectionOptions",
+                "usr": "s:21PapilonActiveLiveness16DetectionOptionsO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21PapilonActiveLiveness15CameraManagerALC017configureALCameraE05token9licenseID16detectionOptions2inySS_SSAA09DetectionM0OSo6UIViewCtF",
+            "mangledName": "$s21PapilonActiveLiveness15CameraManagerALC017configureALCameraE05token9licenseID16detectionOptions2inySS_SSAA09DetectionM0OSo6UIViewCtF",
+            "moduleName": "PapilonActiveLiveness",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "captureOutput",
+            "printedName": "captureOutput(_:didOutput:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureOutput",
+                "printedName": "AVFoundation.AVCaptureOutput",
+                "usr": "c:objc(cs)AVCaptureOutput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMSampleBuffer",
+                "printedName": "CoreMedia.CMSampleBuffer",
+                "usr": "c:@T@CMSampleBufferRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureConnection",
+                "printedName": "AVFoundation.AVCaptureConnection",
+                "usr": "c:objc(cs)AVCaptureConnection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PapilonActiveLiveness@objc(cs)CameraManagerAL(im)captureOutput:didOutputSampleBuffer:fromConnection:",
+            "mangledName": "$s21PapilonActiveLiveness15CameraManagerALC13captureOutput_03didH04fromySo09AVCaptureH0C_So17CMSampleBufferRefaSo0K10ConnectionCtF",
+            "moduleName": "PapilonActiveLiveness",
+            "objc_name": "captureOutput:didOutputSampleBuffer:fromConnection:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPreviewView",
+            "printedName": "setPreviewView(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21PapilonActiveLiveness15CameraManagerALC14setPreviewViewyySo6UIViewCF",
+            "mangledName": "$s21PapilonActiveLiveness15CameraManagerALC14setPreviewViewyySo6UIViewCF",
+            "moduleName": "PapilonActiveLiveness",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startCamera",
+            "printedName": "startCamera(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21PapilonActiveLiveness15CameraManagerALC05startD010completionyySbc_tF",
+            "mangledName": "$s21PapilonActiveLiveness15CameraManagerALC05startD010completionyySbc_tF",
+            "moduleName": "PapilonActiveLiveness",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopCamera",
+            "printedName": "stopCamera()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21PapilonActiveLiveness15CameraManagerALC04stopD0yyF",
+            "mangledName": "$s21PapilonActiveLiveness15CameraManagerALC04stopD0yyF",
+            "moduleName": "PapilonActiveLiveness",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PapilonActiveLiveness@objc(cs)CameraManagerAL",
+        "mangledName": "$s21PapilonActiveLiveness15CameraManagerALC",
+        "moduleName": "PapilonActiveLiveness",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "LivenessDetectionDelegate",
+            "printedName": "LivenessDetectionDelegate",
+            "usr": "s:21PapilonActiveLiveness0C17DetectionDelegateP",
+            "mangledName": "$s21PapilonActiveLiveness0C17DetectionDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LivenessImageDetectionDelegate",
+            "printedName": "LivenessImageDetectionDelegate",
+            "usr": "s:21PapilonActiveLiveness0C22ImageDetectionDelegateP",
+            "mangledName": "$s21PapilonActiveLiveness0C22ImageDetectionDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PapilonActiveLiveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PapilonActiveLiveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MLKitFaceDetection",
+        "printedName": "MLKitFaceDetection",
+        "declKind": "Import",
+        "moduleName": "PapilonActiveLiveness"
+      },
+      {
+        "kind": "Import",
+        "name": "MLKitVision",
+        "printedName": "MLKitVision",
+        "declKind": "Import",
+        "moduleName": "PapilonActiveLiveness"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage",
+        "printedName": "CoreImage",
+        "declKind": "Import",
+        "moduleName": "PapilonActiveLiveness"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DetectionOptions",
+        "printedName": "DetectionOptions",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "HeadRot",
+            "printedName": "HeadRot",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLiveness.DetectionOptions.Type) -> PapilonActiveLiveness.DetectionOptions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionOptions",
+                    "printedName": "PapilonActiveLiveness.DetectionOptions",
+                    "usr": "s:21PapilonActiveLiveness16DetectionOptionsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLiveness.DetectionOptions.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionOptions",
+                        "printedName": "PapilonActiveLiveness.DetectionOptions",
+                        "usr": "s:21PapilonActiveLiveness16DetectionOptionsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21PapilonActiveLiveness16DetectionOptionsO7HeadRotyA2CmF",
+            "mangledName": "$s21PapilonActiveLiveness16DetectionOptionsO7HeadRotyA2CmF",
+            "moduleName": "PapilonActiveLiveness"
+          },
+          {
+            "kind": "Var",
+            "name": "Blink_HeadRot",
+            "printedName": "Blink_HeadRot",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLiveness.DetectionOptions.Type) -> PapilonActiveLiveness.DetectionOptions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionOptions",
+                    "printedName": "PapilonActiveLiveness.DetectionOptions",
+                    "usr": "s:21PapilonActiveLiveness16DetectionOptionsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLiveness.DetectionOptions.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionOptions",
+                        "printedName": "PapilonActiveLiveness.DetectionOptions",
+                        "usr": "s:21PapilonActiveLiveness16DetectionOptionsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21PapilonActiveLiveness16DetectionOptionsO13Blink_HeadRotyA2CmF",
+            "mangledName": "$s21PapilonActiveLiveness16DetectionOptionsO13Blink_HeadRotyA2CmF",
+            "moduleName": "PapilonActiveLiveness"
+          },
+          {
+            "kind": "Var",
+            "name": "HeadRot_Smile",
+            "printedName": "HeadRot_Smile",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLiveness.DetectionOptions.Type) -> PapilonActiveLiveness.DetectionOptions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionOptions",
+                    "printedName": "PapilonActiveLiveness.DetectionOptions",
+                    "usr": "s:21PapilonActiveLiveness16DetectionOptionsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLiveness.DetectionOptions.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionOptions",
+                        "printedName": "PapilonActiveLiveness.DetectionOptions",
+                        "usr": "s:21PapilonActiveLiveness16DetectionOptionsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21PapilonActiveLiveness16DetectionOptionsO13HeadRot_SmileyA2CmF",
+            "mangledName": "$s21PapilonActiveLiveness16DetectionOptionsO13HeadRot_SmileyA2CmF",
+            "moduleName": "PapilonActiveLiveness"
+          },
+          {
+            "kind": "Var",
+            "name": "FullPack",
+            "printedName": "FullPack",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLiveness.DetectionOptions.Type) -> PapilonActiveLiveness.DetectionOptions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionOptions",
+                    "printedName": "PapilonActiveLiveness.DetectionOptions",
+                    "usr": "s:21PapilonActiveLiveness16DetectionOptionsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLiveness.DetectionOptions.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionOptions",
+                        "printedName": "PapilonActiveLiveness.DetectionOptions",
+                        "usr": "s:21PapilonActiveLiveness16DetectionOptionsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21PapilonActiveLiveness16DetectionOptionsO8FullPackyA2CmF",
+            "mangledName": "$s21PapilonActiveLiveness16DetectionOptionsO8FullPackyA2CmF",
+            "moduleName": "PapilonActiveLiveness"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DetectionOptions",
+                "printedName": "PapilonActiveLiveness.DetectionOptions",
+                "usr": "s:21PapilonActiveLiveness16DetectionOptionsO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DetectionOptions",
+                "printedName": "PapilonActiveLiveness.DetectionOptions",
+                "usr": "s:21PapilonActiveLiveness16DetectionOptionsO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21PapilonActiveLiveness16DetectionOptionsO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s21PapilonActiveLiveness16DetectionOptionsO2eeoiySbAC_ACtFZ",
+            "moduleName": "PapilonActiveLiveness",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21PapilonActiveLiveness16DetectionOptionsO9hashValueSivp",
+            "mangledName": "$s21PapilonActiveLiveness16DetectionOptionsO9hashValueSivp",
+            "moduleName": "PapilonActiveLiveness",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness16DetectionOptionsO9hashValueSivg",
+                "mangledName": "$s21PapilonActiveLiveness16DetectionOptionsO9hashValueSivg",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21PapilonActiveLiveness16DetectionOptionsO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s21PapilonActiveLiveness16DetectionOptionsO4hash4intoys6HasherVz_tF",
+            "moduleName": "PapilonActiveLiveness",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:21PapilonActiveLiveness16DetectionOptionsO",
+        "mangledName": "$s21PapilonActiveLiveness16DetectionOptionsO",
+        "moduleName": "PapilonActiveLiveness",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DetectionStep",
+        "printedName": "DetectionStep",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "initial",
+            "printedName": "initial",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLiveness.DetectionStep.Type) -> PapilonActiveLiveness.DetectionStep",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionStep",
+                    "printedName": "PapilonActiveLiveness.DetectionStep",
+                    "usr": "s:21PapilonActiveLiveness13DetectionStepO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLiveness.DetectionStep.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionStep",
+                        "printedName": "PapilonActiveLiveness.DetectionStep",
+                        "usr": "s:21PapilonActiveLiveness13DetectionStepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21PapilonActiveLiveness13DetectionStepO7initialyA2CmF",
+            "mangledName": "$s21PapilonActiveLiveness13DetectionStepO7initialyA2CmF",
+            "moduleName": "PapilonActiveLiveness"
+          },
+          {
+            "kind": "Var",
+            "name": "faceDetected",
+            "printedName": "faceDetected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLiveness.DetectionStep.Type) -> PapilonActiveLiveness.DetectionStep",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionStep",
+                    "printedName": "PapilonActiveLiveness.DetectionStep",
+                    "usr": "s:21PapilonActiveLiveness13DetectionStepO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLiveness.DetectionStep.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionStep",
+                        "printedName": "PapilonActiveLiveness.DetectionStep",
+                        "usr": "s:21PapilonActiveLiveness13DetectionStepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21PapilonActiveLiveness13DetectionStepO12faceDetectedyA2CmF",
+            "mangledName": "$s21PapilonActiveLiveness13DetectionStepO12faceDetectedyA2CmF",
+            "moduleName": "PapilonActiveLiveness"
+          },
+          {
+            "kind": "Var",
+            "name": "blinked",
+            "printedName": "blinked",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLiveness.DetectionStep.Type) -> PapilonActiveLiveness.DetectionStep",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionStep",
+                    "printedName": "PapilonActiveLiveness.DetectionStep",
+                    "usr": "s:21PapilonActiveLiveness13DetectionStepO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLiveness.DetectionStep.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionStep",
+                        "printedName": "PapilonActiveLiveness.DetectionStep",
+                        "usr": "s:21PapilonActiveLiveness13DetectionStepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21PapilonActiveLiveness13DetectionStepO7blinkedyA2CmF",
+            "mangledName": "$s21PapilonActiveLiveness13DetectionStepO7blinkedyA2CmF",
+            "moduleName": "PapilonActiveLiveness"
+          },
+          {
+            "kind": "Var",
+            "name": "rotatedLeft",
+            "printedName": "rotatedLeft",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLiveness.DetectionStep.Type) -> PapilonActiveLiveness.DetectionStep",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionStep",
+                    "printedName": "PapilonActiveLiveness.DetectionStep",
+                    "usr": "s:21PapilonActiveLiveness13DetectionStepO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLiveness.DetectionStep.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionStep",
+                        "printedName": "PapilonActiveLiveness.DetectionStep",
+                        "usr": "s:21PapilonActiveLiveness13DetectionStepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21PapilonActiveLiveness13DetectionStepO11rotatedLeftyA2CmF",
+            "mangledName": "$s21PapilonActiveLiveness13DetectionStepO11rotatedLeftyA2CmF",
+            "moduleName": "PapilonActiveLiveness"
+          },
+          {
+            "kind": "Var",
+            "name": "rotatedRight",
+            "printedName": "rotatedRight",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLiveness.DetectionStep.Type) -> PapilonActiveLiveness.DetectionStep",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionStep",
+                    "printedName": "PapilonActiveLiveness.DetectionStep",
+                    "usr": "s:21PapilonActiveLiveness13DetectionStepO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLiveness.DetectionStep.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionStep",
+                        "printedName": "PapilonActiveLiveness.DetectionStep",
+                        "usr": "s:21PapilonActiveLiveness13DetectionStepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21PapilonActiveLiveness13DetectionStepO12rotatedRightyA2CmF",
+            "mangledName": "$s21PapilonActiveLiveness13DetectionStepO12rotatedRightyA2CmF",
+            "moduleName": "PapilonActiveLiveness"
+          },
+          {
+            "kind": "Var",
+            "name": "smiled",
+            "printedName": "smiled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLiveness.DetectionStep.Type) -> PapilonActiveLiveness.DetectionStep",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionStep",
+                    "printedName": "PapilonActiveLiveness.DetectionStep",
+                    "usr": "s:21PapilonActiveLiveness13DetectionStepO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLiveness.DetectionStep.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionStep",
+                        "printedName": "PapilonActiveLiveness.DetectionStep",
+                        "usr": "s:21PapilonActiveLiveness13DetectionStepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21PapilonActiveLiveness13DetectionStepO6smiledyA2CmF",
+            "mangledName": "$s21PapilonActiveLiveness13DetectionStepO6smiledyA2CmF",
+            "moduleName": "PapilonActiveLiveness"
+          },
+          {
+            "kind": "Var",
+            "name": "completed",
+            "printedName": "completed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLiveness.DetectionStep.Type) -> PapilonActiveLiveness.DetectionStep",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionStep",
+                    "printedName": "PapilonActiveLiveness.DetectionStep",
+                    "usr": "s:21PapilonActiveLiveness13DetectionStepO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLiveness.DetectionStep.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionStep",
+                        "printedName": "PapilonActiveLiveness.DetectionStep",
+                        "usr": "s:21PapilonActiveLiveness13DetectionStepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21PapilonActiveLiveness13DetectionStepO9completedyA2CmF",
+            "mangledName": "$s21PapilonActiveLiveness13DetectionStepO9completedyA2CmF",
+            "moduleName": "PapilonActiveLiveness"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DetectionStep",
+                "printedName": "PapilonActiveLiveness.DetectionStep",
+                "usr": "s:21PapilonActiveLiveness13DetectionStepO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DetectionStep",
+                "printedName": "PapilonActiveLiveness.DetectionStep",
+                "usr": "s:21PapilonActiveLiveness13DetectionStepO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21PapilonActiveLiveness13DetectionStepO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s21PapilonActiveLiveness13DetectionStepO2eeoiySbAC_ACtFZ",
+            "moduleName": "PapilonActiveLiveness",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21PapilonActiveLiveness13DetectionStepO9hashValueSivp",
+            "mangledName": "$s21PapilonActiveLiveness13DetectionStepO9hashValueSivp",
+            "moduleName": "PapilonActiveLiveness",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness13DetectionStepO9hashValueSivg",
+                "mangledName": "$s21PapilonActiveLiveness13DetectionStepO9hashValueSivg",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21PapilonActiveLiveness13DetectionStepO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s21PapilonActiveLiveness13DetectionStepO4hash4intoys6HasherVz_tF",
+            "moduleName": "PapilonActiveLiveness",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:21PapilonActiveLiveness13DetectionStepO",
+        "mangledName": "$s21PapilonActiveLiveness13DetectionStepO",
+        "moduleName": "PapilonActiveLiveness",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageDetectionStep",
+        "printedName": "ImageDetectionStep",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "leftRotation",
+            "printedName": "leftRotation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLiveness.ImageDetectionStep.Type) -> (Swift.String) -> PapilonActiveLiveness.ImageDetectionStep",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> PapilonActiveLiveness.ImageDetectionStep",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageDetectionStep",
+                        "printedName": "PapilonActiveLiveness.ImageDetectionStep",
+                        "usr": "s:21PapilonActiveLiveness18ImageDetectionStepO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(image: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLiveness.ImageDetectionStep.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageDetectionStep",
+                        "printedName": "PapilonActiveLiveness.ImageDetectionStep",
+                        "usr": "s:21PapilonActiveLiveness18ImageDetectionStepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21PapilonActiveLiveness18ImageDetectionStepO12leftRotationyACSS_tcACmF",
+            "mangledName": "$s21PapilonActiveLiveness18ImageDetectionStepO12leftRotationyACSS_tcACmF",
+            "moduleName": "PapilonActiveLiveness"
+          },
+          {
+            "kind": "Var",
+            "name": "rightRotation",
+            "printedName": "rightRotation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLiveness.ImageDetectionStep.Type) -> (Swift.String) -> PapilonActiveLiveness.ImageDetectionStep",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> PapilonActiveLiveness.ImageDetectionStep",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageDetectionStep",
+                        "printedName": "PapilonActiveLiveness.ImageDetectionStep",
+                        "usr": "s:21PapilonActiveLiveness18ImageDetectionStepO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(image: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLiveness.ImageDetectionStep.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageDetectionStep",
+                        "printedName": "PapilonActiveLiveness.ImageDetectionStep",
+                        "usr": "s:21PapilonActiveLiveness18ImageDetectionStepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21PapilonActiveLiveness18ImageDetectionStepO13rightRotationyACSS_tcACmF",
+            "mangledName": "$s21PapilonActiveLiveness18ImageDetectionStepO13rightRotationyACSS_tcACmF",
+            "moduleName": "PapilonActiveLiveness"
+          },
+          {
+            "kind": "Var",
+            "name": "blink",
+            "printedName": "blink",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLiveness.ImageDetectionStep.Type) -> (Swift.String) -> PapilonActiveLiveness.ImageDetectionStep",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> PapilonActiveLiveness.ImageDetectionStep",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageDetectionStep",
+                        "printedName": "PapilonActiveLiveness.ImageDetectionStep",
+                        "usr": "s:21PapilonActiveLiveness18ImageDetectionStepO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(image: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLiveness.ImageDetectionStep.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageDetectionStep",
+                        "printedName": "PapilonActiveLiveness.ImageDetectionStep",
+                        "usr": "s:21PapilonActiveLiveness18ImageDetectionStepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21PapilonActiveLiveness18ImageDetectionStepO5blinkyACSS_tcACmF",
+            "mangledName": "$s21PapilonActiveLiveness18ImageDetectionStepO5blinkyACSS_tcACmF",
+            "moduleName": "PapilonActiveLiveness"
+          },
+          {
+            "kind": "Var",
+            "name": "smile",
+            "printedName": "smile",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PapilonActiveLiveness.ImageDetectionStep.Type) -> (Swift.String) -> PapilonActiveLiveness.ImageDetectionStep",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> PapilonActiveLiveness.ImageDetectionStep",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageDetectionStep",
+                        "printedName": "PapilonActiveLiveness.ImageDetectionStep",
+                        "usr": "s:21PapilonActiveLiveness18ImageDetectionStepO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(image: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PapilonActiveLiveness.ImageDetectionStep.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageDetectionStep",
+                        "printedName": "PapilonActiveLiveness.ImageDetectionStep",
+                        "usr": "s:21PapilonActiveLiveness18ImageDetectionStepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21PapilonActiveLiveness18ImageDetectionStepO5smileyACSS_tcACmF",
+            "mangledName": "$s21PapilonActiveLiveness18ImageDetectionStepO5smileyACSS_tcACmF",
+            "moduleName": "PapilonActiveLiveness"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:21PapilonActiveLiveness18ImageDetectionStepO",
+        "mangledName": "$s21PapilonActiveLiveness18ImageDetectionStepO",
+        "moduleName": "PapilonActiveLiveness",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LivenessDetectionDelegate",
+        "printedName": "LivenessDetectionDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didDetectAction",
+            "printedName": "didDetectAction(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DetectionStep",
+                "printedName": "PapilonActiveLiveness.DetectionStep",
+                "usr": "s:21PapilonActiveLiveness13DetectionStepO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21PapilonActiveLiveness0C17DetectionDelegateP15didDetectActionyyAA0D4StepOF",
+            "mangledName": "$s21PapilonActiveLiveness0C17DetectionDelegateP15didDetectActionyyAA0D4StepOF",
+            "moduleName": "PapilonActiveLiveness",
+            "genericSig": "<τ_0_0 where τ_0_0 : PapilonActiveLiveness.LivenessDetectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PapilonActiveLiveness.LivenessDetectionDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "verificationCompleted",
+            "printedName": "verificationCompleted(isVerified:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21PapilonActiveLiveness0C17DetectionDelegateP21verificationCompleted10isVerifiedySb_tF",
+            "mangledName": "$s21PapilonActiveLiveness0C17DetectionDelegateP21verificationCompleted10isVerifiedySb_tF",
+            "moduleName": "PapilonActiveLiveness",
+            "genericSig": "<τ_0_0 where τ_0_0 : PapilonActiveLiveness.LivenessDetectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PapilonActiveLiveness.LivenessDetectionDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:21PapilonActiveLiveness0C17DetectionDelegateP",
+        "mangledName": "$s21PapilonActiveLiveness0C17DetectionDelegateP",
+        "moduleName": "PapilonActiveLiveness",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LivenessImageDetectionDelegate",
+        "printedName": "LivenessImageDetectionDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didDetectImage",
+            "printedName": "didDetectImage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImageDetectionStep",
+                "printedName": "PapilonActiveLiveness.ImageDetectionStep",
+                "usr": "s:21PapilonActiveLiveness18ImageDetectionStepO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21PapilonActiveLiveness0C22ImageDetectionDelegateP09didDetectD0yyAA0dE4StepOF",
+            "mangledName": "$s21PapilonActiveLiveness0C22ImageDetectionDelegateP09didDetectD0yyAA0dE4StepOF",
+            "moduleName": "PapilonActiveLiveness",
+            "genericSig": "<τ_0_0 where τ_0_0 : PapilonActiveLiveness.LivenessImageDetectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PapilonActiveLiveness.LivenessImageDetectionDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:21PapilonActiveLiveness0C22ImageDetectionDelegateP",
+        "mangledName": "$s21PapilonActiveLiveness0C22ImageDetectionDelegateP",
+        "moduleName": "PapilonActiveLiveness",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LivenessDetection",
+        "printedName": "LivenessDetection",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any PapilonActiveLiveness.LivenessDetectionDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessDetectionDelegate",
+                    "printedName": "any PapilonActiveLiveness.LivenessDetectionDelegate",
+                    "usr": "s:21PapilonActiveLiveness0C17DetectionDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21PapilonActiveLiveness0C9DetectionC8delegateAA0cD8Delegate_pSgvp",
+            "mangledName": "$s21PapilonActiveLiveness0C9DetectionC8delegateAA0cD8Delegate_pSgvp",
+            "moduleName": "PapilonActiveLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any PapilonActiveLiveness.LivenessDetectionDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessDetectionDelegate",
+                        "printedName": "any PapilonActiveLiveness.LivenessDetectionDelegate",
+                        "usr": "s:21PapilonActiveLiveness0C17DetectionDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC8delegateAA0cD8Delegate_pSgvg",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC8delegateAA0cD8Delegate_pSgvg",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any PapilonActiveLiveness.LivenessDetectionDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessDetectionDelegate",
+                        "printedName": "any PapilonActiveLiveness.LivenessDetectionDelegate",
+                        "usr": "s:21PapilonActiveLiveness0C17DetectionDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC8delegateAA0cD8Delegate_pSgvs",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC8delegateAA0cD8Delegate_pSgvs",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC8delegateAA0cD8Delegate_pSgvM",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC8delegateAA0cD8Delegate_pSgvM",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imageDelegate",
+            "printedName": "imageDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any PapilonActiveLiveness.LivenessImageDetectionDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21PapilonActiveLiveness0C9DetectionC13imageDelegateAA0c5ImagedF0_pSgvp",
+            "mangledName": "$s21PapilonActiveLiveness0C9DetectionC13imageDelegateAA0c5ImagedF0_pSgvp",
+            "moduleName": "PapilonActiveLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any PapilonActiveLiveness.LivenessImageDetectionDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessImageDetectionDelegate",
+                        "printedName": "any PapilonActiveLiveness.LivenessImageDetectionDelegate",
+                        "usr": "s:21PapilonActiveLiveness0C22ImageDetectionDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC13imageDelegateAA0c5ImagedF0_pSgvg",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC13imageDelegateAA0c5ImagedF0_pSgvg",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any PapilonActiveLiveness.LivenessImageDetectionDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessImageDetectionDelegate",
+                        "printedName": "any PapilonActiveLiveness.LivenessImageDetectionDelegate",
+                        "usr": "s:21PapilonActiveLiveness0C22ImageDetectionDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC13imageDelegateAA0c5ImagedF0_pSgvs",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC13imageDelegateAA0c5ImagedF0_pSgvs",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC13imageDelegateAA0c5ImagedF0_pSgvM",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC13imageDelegateAA0c5ImagedF0_pSgvM",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "initialEyeDetect",
+            "printedName": "initialEyeDetect",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21PapilonActiveLiveness0C9DetectionC16initialEyeDetectSSSgvp",
+            "mangledName": "$s21PapilonActiveLiveness0C9DetectionC16initialEyeDetectSSSgvp",
+            "moduleName": "PapilonActiveLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC16initialEyeDetectSSSgvg",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC16initialEyeDetectSSSgvg",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC16initialEyeDetectSSSgvs",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC16initialEyeDetectSSSgvs",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC16initialEyeDetectSSSgvM",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC16initialEyeDetectSSSgvM",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isFaceDetected",
+            "printedName": "isFaceDetected",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21PapilonActiveLiveness0C9DetectionC14isFaceDetectedSbvp",
+            "mangledName": "$s21PapilonActiveLiveness0C9DetectionC14isFaceDetectedSbvp",
+            "moduleName": "PapilonActiveLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC14isFaceDetectedSbvg",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC14isFaceDetectedSbvg",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC14isFaceDetectedSbvs",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC14isFaceDetectedSbvs",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC14isFaceDetectedSbvM",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC14isFaceDetectedSbvM",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isBlinkDetected",
+            "printedName": "isBlinkDetected",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21PapilonActiveLiveness0C9DetectionC15isBlinkDetectedSbvp",
+            "mangledName": "$s21PapilonActiveLiveness0C9DetectionC15isBlinkDetectedSbvp",
+            "moduleName": "PapilonActiveLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC15isBlinkDetectedSbvg",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC15isBlinkDetectedSbvg",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC15isBlinkDetectedSbvs",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC15isBlinkDetectedSbvs",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC15isBlinkDetectedSbvM",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC15isBlinkDetectedSbvM",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isRotateLeftDetected",
+            "printedName": "isRotateLeftDetected",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21PapilonActiveLiveness0C9DetectionC20isRotateLeftDetectedSbvp",
+            "mangledName": "$s21PapilonActiveLiveness0C9DetectionC20isRotateLeftDetectedSbvp",
+            "moduleName": "PapilonActiveLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC20isRotateLeftDetectedSbvg",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC20isRotateLeftDetectedSbvg",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC20isRotateLeftDetectedSbvs",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC20isRotateLeftDetectedSbvs",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC20isRotateLeftDetectedSbvM",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC20isRotateLeftDetectedSbvM",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isRotateRightDetected",
+            "printedName": "isRotateRightDetected",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21PapilonActiveLiveness0C9DetectionC21isRotateRightDetectedSbvp",
+            "mangledName": "$s21PapilonActiveLiveness0C9DetectionC21isRotateRightDetectedSbvp",
+            "moduleName": "PapilonActiveLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC21isRotateRightDetectedSbvg",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC21isRotateRightDetectedSbvg",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC21isRotateRightDetectedSbvs",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC21isRotateRightDetectedSbvs",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC21isRotateRightDetectedSbvM",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC21isRotateRightDetectedSbvM",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isSmileDetected",
+            "printedName": "isSmileDetected",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21PapilonActiveLiveness0C9DetectionC15isSmileDetectedSbvp",
+            "mangledName": "$s21PapilonActiveLiveness0C9DetectionC15isSmileDetectedSbvp",
+            "moduleName": "PapilonActiveLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC15isSmileDetectedSbvg",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC15isSmileDetectedSbvg",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC15isSmileDetectedSbvs",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC15isSmileDetectedSbvs",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC15isSmileDetectedSbvM",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC15isSmileDetectedSbvM",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "livenessSuccess",
+            "printedName": "livenessSuccess",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21PapilonActiveLiveness0C9DetectionC15livenessSuccessSbvp",
+            "mangledName": "$s21PapilonActiveLiveness0C9DetectionC15livenessSuccessSbvp",
+            "moduleName": "PapilonActiveLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC15livenessSuccessSbvg",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC15livenessSuccessSbvg",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC15livenessSuccessSbvs",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC15livenessSuccessSbvs",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC15livenessSuccessSbvM",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC15livenessSuccessSbvM",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "detectionOptions",
+            "printedName": "detectionOptions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DetectionOptions",
+                "printedName": "PapilonActiveLiveness.DetectionOptions",
+                "usr": "s:21PapilonActiveLiveness16DetectionOptionsO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21PapilonActiveLiveness0C9DetectionC16detectionOptionsAA0dF0Ovp",
+            "mangledName": "$s21PapilonActiveLiveness0C9DetectionC16detectionOptionsAA0dF0Ovp",
+            "moduleName": "PapilonActiveLiveness",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionOptions",
+                    "printedName": "PapilonActiveLiveness.DetectionOptions",
+                    "usr": "s:21PapilonActiveLiveness16DetectionOptionsO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC16detectionOptionsAA0dF0Ovg",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC16detectionOptionsAA0dF0Ovg",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionOptions",
+                    "printedName": "PapilonActiveLiveness.DetectionOptions",
+                    "usr": "s:21PapilonActiveLiveness16DetectionOptionsO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC16detectionOptionsAA0dF0Ovs",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC16detectionOptionsAA0dF0Ovs",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC16detectionOptionsAA0dF0OvM",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC16detectionOptionsAA0dF0OvM",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "requestErrorType",
+            "printedName": "requestErrorType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21PapilonActiveLiveness0C9DetectionC16requestErrorTypeSiSgvp",
+            "mangledName": "$s21PapilonActiveLiveness0C9DetectionC16requestErrorTypeSiSgvp",
+            "moduleName": "PapilonActiveLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC16requestErrorTypeSiSgvg",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC16requestErrorTypeSiSgvg",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC16requestErrorTypeSiSgvs",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC16requestErrorTypeSiSgvs",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC16requestErrorTypeSiSgvM",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC16requestErrorTypeSiSgvM",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isSessionValid",
+            "printedName": "isSessionValid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21PapilonActiveLiveness0C9DetectionC14isSessionValidSbvp",
+            "mangledName": "$s21PapilonActiveLiveness0C9DetectionC14isSessionValidSbvp",
+            "moduleName": "PapilonActiveLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC14isSessionValidSbvg",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC14isSessionValidSbvg",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC14isSessionValidSbvs",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC14isSessionValidSbvs",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC14isSessionValidSbvM",
+                "mangledName": "$s21PapilonActiveLiveness0C9DetectionC14isSessionValidSbvM",
+                "moduleName": "PapilonActiveLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:licenceID:detectionOptionsInit:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessDetection",
+                "printedName": "PapilonActiveLiveness.LivenessDetection",
+                "usr": "s:21PapilonActiveLiveness0C9DetectionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DetectionOptions",
+                "printedName": "PapilonActiveLiveness.DetectionOptions",
+                "usr": "s:21PapilonActiveLiveness16DetectionOptionsO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21PapilonActiveLiveness0C9DetectionC5token9licenceID20detectionOptionsInit10completionACSS_SSAA0dI0OySbctcfc",
+            "mangledName": "$s21PapilonActiveLiveness0C9DetectionC5token9licenceID20detectionOptionsInit10completionACSS_SSAA0dI0OySbctcfc",
+            "moduleName": "PapilonActiveLiveness",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "faceVerify",
+            "printedName": "faceVerify(nfcFace:selfie:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, Swift.Double?, Swift.Bool?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, Swift.Double?, Swift.Bool?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Double?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21PapilonActiveLiveness0C9DetectionC10faceVerify7nfcFace6selfie10completionySS_SSySb_SdSgSbSgtctF",
+            "mangledName": "$s21PapilonActiveLiveness0C9DetectionC10faceVerify7nfcFace6selfie10completionySS_SSySb_SdSgSbSgtctF",
+            "moduleName": "PapilonActiveLiveness",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "detectFace",
+            "printedName": "detectFace(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreGraphics.CGFloat?, Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CoreGraphics.CGFloat?, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CoreGraphics.CGFloat?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGFloat",
+                            "printedName": "CoreGraphics.CGFloat",
+                            "usr": "s:14CoreFoundation7CGFloatV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21PapilonActiveLiveness0C9DetectionC10detectFace_10completionySo7UIImageC_y14CoreFoundation7CGFloatVSg_SSSgtctF",
+            "mangledName": "$s21PapilonActiveLiveness0C9DetectionC10detectFace_10completionySo7UIImageC_y12CoreGraphics7CGFloatVSg_SSSgtctF",
+            "moduleName": "PapilonActiveLiveness",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21PapilonActiveLiveness0C9DetectionC5resetyyF",
+            "mangledName": "$s21PapilonActiveLiveness0C9DetectionC5resetyyF",
+            "moduleName": "PapilonActiveLiveness",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21PapilonActiveLiveness0C9DetectionC",
+        "mangledName": "$s21PapilonActiveLiveness0C9DetectionC",
+        "moduleName": "PapilonActiveLiveness",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PapilonActiveLiveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/CameraManagerAL.swift",
+      "kind": "BooleanLiteral",
+      "offset": 429,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/CameraManagerAL.swift",
+      "kind": "Dictionary",
+      "offset": 4318,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/CameraManagerAL.swift",
+      "kind": "StringLiteral",
+      "offset": 4435,
+      "length": 17,
+      "value": "\"al_sessionQueue\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/CameraManagerAL.swift",
+      "kind": "StringLiteral",
+      "offset": 4514,
+      "length": 34,
+      "value": "\"al_camera_frame_processing_queue\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 494,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/LivenessDetection.swift",
+      "kind": "Dictionary",
+      "offset": 1058,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1364,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1434,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1505,
+      "length": 3,
+      "value": "-50"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1577,
+      "length": 3,
+      "value": "-10"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/LivenessDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 1639,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/LivenessDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 1702,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1781,
+      "length": 2,
+      "value": "-3"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/LivenessDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1860,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/LivenessDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 1908,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2109,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2148,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2192,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2237,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2276,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2315,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/LivenessDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2649,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 6,
+      "value": "\"INFO\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 9,
+      "value": "\"WARNING\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 299,
+      "length": 7,
+      "value": "\"ERROR\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 6,
+      "value": "\"INFO\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 9,
+      "value": "\"WARNING\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/PapilonActiveLiveness\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 299,
+      "length": 7,
+      "value": "\"ERROR\""
+    }
+  ]
+}

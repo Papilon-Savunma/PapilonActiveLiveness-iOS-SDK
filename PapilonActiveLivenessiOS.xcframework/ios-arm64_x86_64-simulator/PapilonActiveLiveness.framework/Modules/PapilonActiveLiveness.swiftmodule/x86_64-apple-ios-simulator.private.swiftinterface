@@ -1,0 +1,91 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios14.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PapilonActiveLiveness
+import AVFoundation
+import CoreImage
+import Foundation
+import MLKitFaceDetection
+import MLKitVision
+@_exported import PapilonActiveLiveness
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol CameraManagerALDelegate : AnyObject {
+  func capturedImagesResult(_ result: [Swift.String : Swift.String])
+}
+@objc @_inheritsConvenienceInitializers public class CameraManagerAL : ObjectiveC.NSObject, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate, PapilonActiveLiveness.LivenessDetectionDelegate, PapilonActiveLiveness.LivenessImageDetectionDelegate {
+  public func verificationCompleted(isVerified: Swift.Bool)
+  public func didDetectAction(_ step: PapilonActiveLiveness.DetectionStep)
+  public func didDetectImage(_ step: PapilonActiveLiveness.ImageDetectionStep)
+  weak public var delegateCameraManagerAL: (any PapilonActiveLiveness.CameraManagerALDelegate)?
+  @objc override dynamic public init()
+  public func configureALCameraManager(token: Swift.String, licenseID: Swift.String, detectionOptions: PapilonActiveLiveness.DetectionOptions, in view: UIKit.UIView)
+  @objc public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+  public func setPreviewView(_ view: UIKit.UIView)
+  public func startCamera(completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func stopCamera()
+  @objc deinit
+}
+public enum DetectionOptions {
+  case HeadRot
+  case Blink_HeadRot
+  case HeadRot_Smile
+  case FullPack
+  public static func == (a: PapilonActiveLiveness.DetectionOptions, b: PapilonActiveLiveness.DetectionOptions) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum DetectionStep {
+  case initial
+  case faceDetected
+  case blinked
+  case rotatedLeft
+  case rotatedRight
+  case smiled
+  case completed
+  public static func == (a: PapilonActiveLiveness.DetectionStep, b: PapilonActiveLiveness.DetectionStep) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ImageDetectionStep {
+  case leftRotation(image: Swift.String)
+  case rightRotation(image: Swift.String)
+  case blink(image: Swift.String)
+  case smile(image: Swift.String)
+}
+public protocol LivenessDetectionDelegate {
+  func didDetectAction(_ step: PapilonActiveLiveness.DetectionStep)
+  func verificationCompleted(isVerified: Swift.Bool)
+}
+public protocol LivenessImageDetectionDelegate : AnyObject {
+  func didDetectImage(_ step: PapilonActiveLiveness.ImageDetectionStep)
+}
+public class LivenessDetection {
+  public var delegate: (any PapilonActiveLiveness.LivenessDetectionDelegate)?
+  weak public var imageDelegate: (any PapilonActiveLiveness.LivenessImageDetectionDelegate)?
+  public var initialEyeDetect: Swift.String?
+  public var isFaceDetected: Swift.Bool
+  public var isBlinkDetected: Swift.Bool
+  public var isRotateLeftDetected: Swift.Bool
+  public var isRotateRightDetected: Swift.Bool
+  public var isSmileDetected: Swift.Bool
+  public var livenessSuccess: Swift.Bool
+  public var detectionOptions: PapilonActiveLiveness.DetectionOptions
+  public var requestErrorType: Swift.Int?
+  public var isSessionValid: Swift.Bool
+  public init(token: Swift.String, licenceID: Swift.String, detectionOptionsInit: PapilonActiveLiveness.DetectionOptions, completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func faceVerify(nfcFace: Swift.String, selfie: Swift.String, completion: @escaping (Swift.Bool, Swift.Double?, Swift.Bool?) -> Swift.Void)
+  public func detectFace(_ pickedImage: UIKit.UIImage, completion: @escaping (CoreFoundation.CGFloat?, Swift.String?) -> Swift.Void)
+  public func reset()
+  @objc deinit
+}
+extension PapilonActiveLiveness.DetectionOptions : Swift.Equatable {}
+extension PapilonActiveLiveness.DetectionOptions : Swift.Hashable {}
+extension PapilonActiveLiveness.DetectionStep : Swift.Equatable {}
+extension PapilonActiveLiveness.DetectionStep : Swift.Hashable {}
