@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '14.2'
   s.swift_version = '5.0'
   s.vendored_frameworks = 'PapilonActiveLiveness.xcframework'
-  # s.dependency 'MLKitFaceDetection'
-  # s.dependency 'MLKitVision'
+  s.dependency 'MLKitFaceDetection'
+  s.dependency 'MLKitVision'
 end
