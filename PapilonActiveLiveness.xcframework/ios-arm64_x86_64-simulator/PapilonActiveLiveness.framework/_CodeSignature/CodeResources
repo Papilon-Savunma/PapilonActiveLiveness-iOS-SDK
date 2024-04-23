@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/PapilonActiveLiveness.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oTYPwSHou4BtIqLuk+iyqDoAg6I=
+		qZygh1t6CsrqOkTaIi3wYONK/qQ=
 		</data>
 		<key>Modules/PapilonActiveLiveness.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/PapilonActiveLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5TCGzSI2b2iZr6ZQKbILQM2k914=
+		2CZJ4rbeOYE++3w4+BTzigWBTsI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -133,11 +133,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oTYPwSHou4BtIqLuk+iyqDoAg6I=
+			qZygh1t6CsrqOkTaIi3wYONK/qQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			jQQq9u7bNKL/Auv5uyY5W6g6ZqzWGb9tuSKquuWON9w=
+			jszHmpwUJvQfurLDNxZ9S/cqN53hIy26izlQbIbNZ/M=
 			</data>
 		</dict>
 		<key>Modules/PapilonActiveLiveness.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -188,11 +188,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5TCGzSI2b2iZr6ZQKbILQM2k914=
+			2CZJ4rbeOYE++3w4+BTzigWBTsI=
 			</data>
 			<key>hash2</key>
 			<data>
-			g2f5enP+rDg53NttA1KMy/dtXXxQ8i4us5l4eVk5y94=
+			CjoK+B9rmvfUBlltnoaSU8BIuvKJjXJMIxo+QxM1V/0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
