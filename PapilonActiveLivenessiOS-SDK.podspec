@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PapilonActiveLivenessiOS-SDK'
-  s.version          = '1.1.3'
+  s.version          = '1.1.5'
   s.summary          = 'Active Liveness SDK for iOS'
 
   s.description      = 'Active Liveness SDK for iOS that detects active liveness in users. Ideal for biometric security applications and identity verification.'
