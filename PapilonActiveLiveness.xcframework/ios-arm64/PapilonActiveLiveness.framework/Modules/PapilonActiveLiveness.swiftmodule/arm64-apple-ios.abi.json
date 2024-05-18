@@ -2945,8 +2945,8 @@
           },
           {
             "kind": "Function",
-            "name": "reset",
-            "printedName": "reset()",
+            "name": "resetLivenessDetection",
+            "printedName": "resetLivenessDetection()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2955,8 +2955,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:21PapilonActiveLiveness0C9DetectionC5resetyyF",
-            "mangledName": "$s21PapilonActiveLiveness0C9DetectionC5resetyyF",
+            "usr": "s:21PapilonActiveLiveness0C9DetectionC05resetcD0yyF",
+            "mangledName": "$s21PapilonActiveLiveness0C9DetectionC05resetcD0yyF",
             "moduleName": "PapilonActiveLiveness",
             "declAttributes": [
               "AccessControl"
@@ -2996,21 +2996,21 @@
     {
       "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/CameraManagerAL.swift",
       "kind": "Dictionary",
-      "offset": 4322,
+      "offset": 4434,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/CameraManagerAL.swift",
       "kind": "StringLiteral",
-      "offset": 4439,
+      "offset": 4551,
       "length": 17,
       "value": "\"al_sessionQueue\""
     },
     {
       "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/CameraManagerAL.swift",
       "kind": "StringLiteral",
-      "offset": 4518,
+      "offset": 4630,
       "length": 34,
       "value": "\"al_camera_frame_processing_queue\""
     },

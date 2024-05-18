@@ -1,6 +1,6 @@
 # PapilonActiveLivenessiOS-SDK
 
-[![pod - 1.1.5](https://img.shields.io/badge/pod-1.1.5-blue)](https://cocoapods.org/)
+[![pod - 1.1.6](https://img.shields.io/badge/pod-1.1.6-blue)](https://cocoapods.org/)
 
 PapilonActiveLivenessiOS-SDK is a cutting-edge iOS SDK designed to ensure secure user authentication by accurately detecting real-time user presence, preventing spoofing and unauthorized access in critical applications.
 
