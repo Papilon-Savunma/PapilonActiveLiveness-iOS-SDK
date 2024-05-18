@@ -587,6 +587,13 @@
         "moduleName": "PapilonActiveLiveness"
       },
       {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "PapilonActiveLiveness"
+      },
+      {
         "kind": "TypeDecl",
         "name": "DetectionOptions",
         "printedName": "DetectionOptions",
@@ -3017,126 +3024,126 @@
     {
       "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/LivenessDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 494,
+      "offset": 514,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/LivenessDetection.swift",
       "kind": "Dictionary",
-      "offset": 1058,
+      "offset": 1078,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/LivenessDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 1364,
+      "offset": 1384,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/LivenessDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 1434,
+      "offset": 1454,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/LivenessDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 1505,
+      "offset": 1525,
       "length": 3,
       "value": "-50"
     },
     {
       "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/LivenessDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 1577,
+      "offset": 1597,
       "length": 3,
       "value": "-10"
     },
     {
       "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/LivenessDetection.swift",
       "kind": "FloatLiteral",
-      "offset": 1639,
+      "offset": 1659,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/LivenessDetection.swift",
       "kind": "FloatLiteral",
-      "offset": 1702,
+      "offset": 1722,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/LivenessDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 1781,
+      "offset": 1801,
       "length": 2,
       "value": "-3"
     },
     {
       "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/LivenessDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 1860,
+      "offset": 1880,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/LivenessDetection.swift",
       "kind": "FloatLiteral",
-      "offset": 1908,
+      "offset": 1928,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/LivenessDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 2109,
+      "offset": 2129,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/LivenessDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 2148,
+      "offset": 2168,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/LivenessDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 2192,
+      "offset": 2212,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/LivenessDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 2237,
+      "offset": 2257,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/LivenessDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 2276,
+      "offset": 2296,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/LivenessDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 2315,
+      "offset": 2335,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/ActiveLivenessWorkingDirectory\/ActiveLivenessSourceCode\/activeliveness_ios\/PapilonActiveLiveness\/LivenessDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 2649,
+      "offset": 2669,
       "length": 5,
       "value": "false"
     },
